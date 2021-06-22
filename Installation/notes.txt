@@ -1,0 +1,45 @@
+
+- Jeu de Dames | Version du 27 avril 2018 -
+
+	Ce programme vous permet de créer et jouer vos propres parties de dames avec plusieurs options à votre disposition.
+
+-- Installation --
+
+--- Linux ---
+
+	Pour installer le jeu ainsi que l'éditeur, exécutez le fichier "installation.bash" à partir de la console, les exécutables seront créés dans le dossier "Dames".
+
+-- Créer une partie --
+
+	Veuillez noter que "jeu.exe" ne peut pas créer de parties, vous devez passer par l'éditeur.
+	Lancez l'éxécutable "editeur.exe" à partir de la console ou en double-cliquant dessus. Ce programme ne prend pas d'argument.
+	Celui-ci vous demandera tout d'abord quelle type de partie vous souhaitez créer. Il vous proposera par ailleurs des parties prédéfinies.
+	Faites votre choix en tapant le numéro associé (notez que si vous ne tapez rien le programme considèrera cela comme 0).
+	Si vous avez choisi une partie personnalisée, des options suivantes s'offrent à vous.
+	Tout d'abord vous pourrez choisir le nombre de lignes ainsi que le nombre de colonnes de votre damier.
+	De nouveau, tapez un nombre avant de continuer. Sachez que certaines dimensions ne sont pas autorisées, et dans ce cas le programme vous le fera savoir.
+	Vous pouvez également remplir votre damier avec les pions de votre choix. Lorsque le programme vous le demande, tapez :
+		- N pour une dame noire ;
+		- n pour un pion noir ;
+		- b pour un pion blanc ;
+		- B pour une dame blanche ;
+		- autre chose pour laisser la case vide.
+	Une fois que votre damier est défini et rempli, vous aurez la possibilité de choisir vos options :
+		- Choisissez qui jouera : tapez un nom pour désigner un joueur, ne tapez rien pour désigner une IA.
+	Vous serez ensuite convié à créer un fichier, pour cela tapez un chemin d'accès valide et appuyez sur Entrée.
+
+-- Jouer une partie --
+
+	Pour jouer une partie préalablement créée, renseignez en argument le chemin vers le fichier qui la contient.
+	Si le fichier contient un enregistrement, la lecture de la partie sera automatique.
+	Lors de la partie, à chaque coup vous serez amené à taper une ligne de commande, et à confirmer en appuyant sur Entrée.
+	Les commandes disponibles sont les suivantes :
+		- 'J' vous permettra de stopper la lecture et de jouer la partie à partir de ce point (vous perdrez les enregistrements suivants) ;
+		- 'R' vous permettra de redémarrer la lecture depuis le début ;
+		- 'Q' vous permettra d'enregistrer et quitter votre partie ;
+		- Enfin, dans tous les autres cas, votre entrée sera ignorée ou convertie en un coup.
+	Note : Appuyer sur Entrée est suffisant pour jouer la partie.
+	Lorsque la partie se termine, elle sera enregistrée dans le fichier d'origine.
+
+	Bon jeu !
+
